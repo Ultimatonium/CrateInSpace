@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OpenGL.Game.Cube">
+    <Position X="3.25" Y="5.25" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="OpenGL.Game.Game">
+    <Position X="19.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="OpenGL.Game.GameObject">
+    <Position X="12" Y="2.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="OpenGL.Game.GameObject.Matrix4Returner" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Renderer" />
+      <Property Name="Transform" />
+      <Property Name="MainTexture" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OpenGL.Game.MeshRenderer">
+    <Position X="8" Y="5" Width="2.5" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="Geometry" />
+      <Property Name="Material" />
+      <Property Name="gameObject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OpenGL.Game.PrimitiveForm">
+    <Position X="4.5" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="OpenGL.Game.Sphere">
+    <Position X="5.5" Y="5.25" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GPR_S_5300_1_Hirschi_Christian.Mainprogram">
+    <Position X="17" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAIAABBAAgAABgABAECAAgABAAAAAIEggABREQAEA=</HashCode>
+      <FileName>Mainprogram.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="game" />
+      <Field Name="lightBall" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OpenGL.VAO" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OpenGL.Material" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OpenGL.Mathematics.Transform" Collapsed="true">
+    <Position X="15" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="OpenGL.Texture" Collapsed="true">
+    <Position X="15" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
