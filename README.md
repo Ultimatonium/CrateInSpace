@@ -1,5 +1,5 @@
 # CrateInSpace
-openGl vertex and fragment shader implementation of a crate in space with phong and blinn refelction implementation
+openGl vertex and fragment shader implementation of a crate in space with phong and blinn reflection implementation
 
 ![screenshot](./screenshot.PNG)
 
